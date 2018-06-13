@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Gilroy-ExtraBold';src: url('../webfonts/36DB87_0_0.eot');src: url('../webfonts/36DB87_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/36DB87_0_0.woff2') format('woff2'),url('../webfonts/36DB87_0_0.woff') format('woff'),url('../webfonts/36DB87_0_0.ttf') format('truetype');
+}
+
+// Typography
+$base-font-family: 'Raleway', serif;
+$heading-font-family: 'Alice', serif;
+$nav-font-family: 'Gilroy-ExtraBold', sans-serif;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.1851851852;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: 1.5em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #304bcb;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$white: #FAFAFA;
+$mustard: #ffc857; 
+
+// Font Colors
+$base-font-color: $white;
+$action-color: $blue;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: $white;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
