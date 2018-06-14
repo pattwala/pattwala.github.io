@@ -30,10 +30,13 @@ a {
   text-decoration: none;
   transition: color $base-duration $base-timing;
 
-  &:hover {
-    color: $mustard;
-    cursor: pointer;
-  }
+  @media (hover:hover) {
+    &:hover {
+      color: $mustard;
+      cursor: pointer;
+    }
+}
+
 
   &:focus {
     outline: $focus-outline;
@@ -59,10 +62,18 @@ hr {
   #hero {
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.9375rem;
       font-weight: normal;
 
-      @media only screen and (min-width: 48rem) { /* width > 768 */
+      @media only screen and (min-width: 31rem) { /* width > 496 */
+        font-size: 3rem;
+      }
+
+      @media only screen and (min-width: 38rem) { /* width > 608 */
+        font-size: 3.6875rem;
+      }
+
+      @media only screen and (min-width: 51rem) { /* width > 816 */
         font-size: 4rem;
       }
 
@@ -74,7 +85,7 @@ hr {
         font-size: 6rem;
       }
 
-      @media only screen and (min-width: 90rem) { /* width > 1440 */
+      @media only screen and (min-width: 89rem) { /* width > 1440 */
         font-size: 7rem;
       }
 
@@ -82,7 +93,7 @@ hr {
         font-size: 8rem;
       }
 
-      @media only screen and (min-width: 140rem) { /* width > 1600 */
+      @media only screen and (min-width: 140rem) { /* width > 2240 */
         font-size: 9rem;
       }
     }

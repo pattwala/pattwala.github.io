@@ -260,9 +260,11 @@ a {
   transition: color 150ms ease;
 }
 
-a:hover {
-  color: #ffc857;
-  cursor: pointer;
+@media (hover: hover) {
+  a:hover {
+    color: #ffc857;
+    cursor: pointer;
+  }
 }
 
 a:focus {
@@ -279,13 +281,27 @@ hr {
 }
 
 .home #hero h1 {
-  font-size: 2.5rem;
+  font-size: 1.9375rem;
   font-weight: normal;
 }
 
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 31rem) {
   .home #hero h1 {
-    /* width > 768 */
+    /* width > 496 */
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 38rem) {
+  .home #hero h1 {
+    /* width > 608 */
+    font-size: 3.6875rem;
+  }
+}
+
+@media only screen and (min-width: 51rem) {
+  .home #hero h1 {
+    /* width > 816 */
     font-size: 4rem;
   }
 }
@@ -304,7 +320,7 @@ hr {
   }
 }
 
-@media only screen and (min-width: 90rem) {
+@media only screen and (min-width: 89rem) {
   .home #hero h1 {
     /* width > 1440 */
     font-size: 7rem;
@@ -320,7 +336,7 @@ hr {
 
 @media only screen and (min-width: 140rem) {
   .home #hero h1 {
-    /* width > 1600 */
+    /* width > 2240 */
     font-size: 9rem;
   }
 }
@@ -345,13 +361,7 @@ hr {
   position: fixed;
   top: 2rem;
   left: 0;
-  text-align: center;
-}
-
-@media only screen and (min-width: 48rem) {
-  #header {
-    text-align: left;
-  }
+  text-align: left;
 }
 
 #header .logo {
@@ -360,32 +370,79 @@ hr {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 48rem) {
+  #header {
+    top: 5%;
+  }
+  #header .logo {
+    font-size: 1.2rem;
+  }
+}
+
 #nav {
   position: fixed;
   bottom: 2rem;
 }
 
-#nav ul {
-  text-align: center;
+@media only screen and (max-width: 48rem) {
+  #nav {
+    bottom: 5%;
+  }
 }
 
-@media only screen and (min-width: 48rem) {
-  #nav ul {
-    text-align: right;
-  }
+#nav ul {
+  text-align: right;
 }
 
 #nav ul li {
   display: inline-block;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
   font-family: "Gilroy-ExtraBold", sans-serif;
-  font-size: 1.25rem;
 }
 
 #nav ul li:nth-of-type(1) {
   margin-left: 0;
 }
 
+#nav ul li a {
+  position: relative;
+}
+
+#nav ul li a:after {
+  position: absolute;
+  z-index: 2;
+  content: attr(title);
+  color: #ffc857;
+  text-align: center;
+  font-size: 1rem;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+@media (hover: hover) {
+  #nav ul li a:hover:after {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  #nav ul li {
+    margin-left: 2.2rem;
+  }
+}
+
 .home {
   background-image: linear-gradient(-43deg, #F0544F 0%, #D81E5B 100%);
 }
+
+@media only screen and (max-width: 48rem) {
+  .home h1 {
+    margin-bottom: 2%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

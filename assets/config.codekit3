@@ -32,6 +32,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/styles.css.map",
+		"oF": 0
+		},
 	"\/sass\/_neat.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -792,7 +799,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/styles.css",
 		"oF": 2,
@@ -993,6 +1000,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/uploads\/Pramesh Attwala - Resume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/uploads\/Pramesh Attwala - Resume.pdf",
+		"oF": 0
 		},
 	"\/webfonts\/36DB87_0_0.eot": {
 		"cB": 0,
@@ -2427,7 +2441,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/prameshattwala.sandbox",
+	"externalServerAddress": "http:\/\/pattwala.sandbox\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
