@@ -1,8 +1,7 @@
 @import url("//hello.myfonts.net/count/36db87");
-@import url('https://fonts.googleapis.com/css?family=Raleway|Alice');
-
-
-@import "bourbon", "neat", "base/base";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Alice');
+@import "bourbon", "base/base";
+// @import "neat";
 
 @mixin mobile-width {
 	width: calc(100% - 30px);
@@ -14,26 +13,83 @@
 	margin-left: 6rem;
 }
 
-#hero {
-	min-height: 100%;
+body {
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e4e4e4;
+    transition: all 2s $base-timing;
+
+	&.home-page {
+		@media only screen and (max-width: 48rem) {
+			h1 {
+				margin-bottom: 2%;
+			}
+		}
+		
+		#header .logo {
+			color: $blue;
+			&:hover {
+				color: $bright-blue;
+			}
+		}
+
+		#nav ul li {
+			a {
+				color: $blue;
+				&:hover {
+					color: $bright-blue;
+				}
+			}
+		}
+	}
 }
 
-#hero, #header, #nav {
+
+#app {
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+
+#granim-canvas {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+}
+
+.main-content, 
+#header, 
+#nav {
 	@include mobile-width;
 	@media only screen and (min-width: 48rem) {
 		@include default-width;
 	}
 }
 
+#nav:hover, 
+#header:hover {
+	a {
+		color: $blue;
+		&:hover {
+			color: $bright-blue;
+		}
+	}
+}
+
 #header {
 	position: fixed;
+	z-index: 1;
 	top: 2rem;
 	left: 0;
 	text-align: left;
+	padding-bottom: 2rem;
 
 	.logo {
 		font-family: $nav-font-family;
-		color: $white;
+		// color: rgba(255,255,255,0.3);
+		color: rgba(0,0,0,0.1);
 		font-size: 1.5rem;
 	}
 
@@ -43,12 +99,12 @@
 			font-size: 1.2rem;		
 		}
 	}
-
 }
 
 #nav {
 	position: fixed;
 	bottom: 2rem;
+	padding-top: 2rem;
 
 	@media only screen and (max-width: 48rem) {
 		bottom: 5%;
@@ -69,12 +125,17 @@
 
 			a {
 				position: relative;
+				color: rgba(0,0,0,0.1);
+
+				&:hover {
+					color: $bright-blue;
+				}
 
 				&:after {
 					position: absolute;
 					z-index: 2;
 					content: attr(title);
-					color: $mustard;
+					color: $bright-blue;
 					text-align: center;
 					font-size: 1rem;
 					top: -2rem;
@@ -98,11 +159,36 @@
 	}
 }
 
-.home {
-	background-image: linear-gradient(-43deg, #F0544F 0%, #D81E5B 100%);
-	@media only screen and (max-width: 48rem) {
-		h1 {
-			margin-bottom: 2%;
-		}
+.main-content {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	transition: opacity 0.4s $base-timing;
+}
+
+.visible {
+	opacity: 1;
+	transition: opacity 0.4s $base-timing;
+}
+
+.button {
+	padding: 1rem 2rem;
+	border: 4px solid $white;
+	border-radius: 100px;
+	font-weight: 700;
+	color: $white;
+	transition: all $base-duration $base-timing;
+
+	&:hover {
+		border: 4px solid $bright-blue;
+		color: $bright-blue;
 	}
+}
+
+#home-page {
+	color: $white;
+	min-height: 100%;
+	padding: 0;
 }

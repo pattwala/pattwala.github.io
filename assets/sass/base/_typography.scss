@@ -32,15 +32,16 @@ a {
 
   @media (hover:hover) {
     &:hover {
-      color: $mustard;
+      color: $bright-blue;
       cursor: pointer;
     }
 }
 
 
   &:focus {
-    outline: $focus-outline;
-    outline-offset: $focus-outline-offset;
+    // outline: $focus-outline;
+    // outline-offset: $focus-outline-offset;
+    outline: none;
   }
 }
 
@@ -58,44 +59,41 @@ hr {
 
 
 
-.home {
-  #hero {
+// .home-page, .about {
+  h1 {
+    font-size: 1.9375rem;
+    font-weight: normal;
 
-    h1 {
-      font-size: 1.9375rem;
-      font-weight: normal;
+    @media only screen and (min-width: 31rem) { /* width > 496 */
+      font-size: 3rem;
+    }
 
-      @media only screen and (min-width: 31rem) { /* width > 496 */
-        font-size: 3rem;
-      }
+    @media only screen and (min-width: 38rem) { /* width > 608 */
+      font-size: 3.6875rem;
+    }
 
-      @media only screen and (min-width: 38rem) { /* width > 608 */
-        font-size: 3.6875rem;
-      }
+    @media only screen and (min-width: 51rem) { /* width > 816 */
+      font-size: 4rem;
+    }
 
-      @media only screen and (min-width: 51rem) { /* width > 816 */
-        font-size: 4rem;
-      }
+    @media only screen and (min-width: 62rem) { /* width > 992 */
+      font-size: 5rem;
+    }
 
-      @media only screen and (min-width: 62rem) { /* width > 992 */
-        font-size: 5rem;
-      }
+    @media only screen and (min-width: 75rem) { /* width > 1200 */
+      font-size: 6rem;
+    }
 
-      @media only screen and (min-width: 75rem) { /* width > 1200 */
-        font-size: 6rem;
-      }
+    @media only screen and (min-width: 89rem) { /* width > 1440 */
+      font-size: 7rem;
+    }
 
-      @media only screen and (min-width: 89rem) { /* width > 1440 */
-        font-size: 7rem;
-      }
+    @media only screen and (min-width: 100rem) { /* width > 1600 */
+      font-size: 8rem;
+    }
 
-      @media only screen and (min-width: 100rem) { /* width > 1600 */
-        font-size: 8rem;
-      }
-
-      @media only screen and (min-width: 140rem) { /* width > 2240 */
-        font-size: 9rem;
-      }
+    @media only screen and (min-width: 140rem) { /* width > 2240 */
+      font-size: 9rem;
     }
   }
-}
+// }
