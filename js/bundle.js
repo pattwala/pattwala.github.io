@@ -124,7 +124,7 @@ var granimInstance = new Granim({
 				['#658DB5', '#395D82'],
 				['#65B589', '#478261'],
 			],
-            transitionSpeed: 20000
+            transitionSpeed: 20000,
        	},
        	"home-page" : {
 			// gradients: [ ['#FF93B4', '#FFA6C1'] ],
@@ -134,7 +134,7 @@ var granimInstance = new Granim({
 				['#658DB5', '#395D82'],
 				['#65B589', '#478261'],
 			],
-            transitionSpeed: 20000
+            transitionSpeed: 20000,
        	},
        	"portfolio" : {
 			gradients: [ 
