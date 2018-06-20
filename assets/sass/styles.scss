@@ -1,7 +1,8 @@
 @import url("//hello.myfonts.net/count/36db87");
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Alice');
-@import "bourbon", "base/base";
-// @import "neat";
+
+
+@import "bourbon", "neat", "base/base";
 
 @mixin mobile-width {
 	width: calc(100% - 30px);
@@ -16,16 +17,17 @@
 body {
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #e4e4e4;
+    background-color: $blue;
     transition: all 2s $base-timing;
 
 	&.home-page {
+		// background-image: linear-gradient(-43deg, #F0544F 0%, #D81E5B 100%);
+		
 		@media only screen and (max-width: 48rem) {
 			h1 {
 				margin-bottom: 2%;
 			}
 		}
-		
 		#header .logo {
 			color: $blue;
 			&:hover {
@@ -42,6 +44,11 @@ body {
 			}
 		}
 	}
+
+
+	&.portfolio {
+		// background-image: linear-gradient(43deg, #F0544F 0%, #D81E5B 100%);
+	}
 }
 
 
@@ -49,6 +56,8 @@ body {
 	height: 100%;
 	position: relative;
 	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 #granim-canvas {
@@ -170,7 +179,7 @@ body {
 
 .visible {
 	opacity: 1;
-	transition: opacity 0.4s $base-timing;
+	transition: opacity 2.2s $base-timing;
 }
 
 .button {
