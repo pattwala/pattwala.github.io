@@ -18,26 +18,39 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #304bcb;
-$bright-blue: #4B67F3;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
-$white: #F9F2F2;
-$mustard: #ffc857;
-$red-orange: #F0544F;
-$black: #100007;
+// $blue: #304BCB;
+// $bright-blue: #4B67F3;
+// $dark-gray: #333;
+// $medium-gray: #999;
+// $light-gray: #ddd;
+// $white: #fff;
+// $mustard: #ffc857;
+// $red-orange: #F0544F;
+// $black: #100007;
+// $pink: #D81E5B; //#FF8CA8;
+// $light-pink: #FFA6C1;
+
+$white: #FFFFFF;
+$light-gray-1: #F9F2F2;
+$light-gray-2: #DCD5D8;
+$slate-gray: #333333;
+$peach: #FCD4CA;
+$lime: #CAF88B;
+$blue: #2A48D3;
+$electric-blue: #1502FF;
+
 
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $slate-gray;
+$action-color: $lime;
+$hover-color: $peach;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $light-gray-2;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: $white;
+$base-background-color: $electric-blue;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Focus

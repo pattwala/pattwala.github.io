@@ -8,10 +8,10 @@
 
 button, [type='button'], [type='reset'], [type='submit'] {
   appearance: none;
-  background-color: #304bcb;
+  background-color: #CAF88B;
   border: 0;
   border-radius: 3px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   display: inline-block;
   font-family: "Raleway", serif;
@@ -29,12 +29,12 @@ button, [type='button'], [type='reset'], [type='submit'] {
 }
 
 button:hover, [type='button']:hover, [type='reset']:hover, [type='submit']:hover {
-  background-color: #263ca2;
-  color: #fff;
+  background-color: #a2c66f;
+  color: #000;
 }
 
 button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus {
-  outline: 3px solid rgba(48, 75, 203, 0.6);
+  outline: 3px solid rgba(202, 248, 139, 0.6);
   outline-offset: 2px;
 }
 
@@ -44,7 +44,7 @@ button:disabled, [type='button']:disabled, [type='reset']:disabled, [type='submi
 }
 
 button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
-  background-color: #304bcb;
+  background-color: #CAF88B;
 }
 
 fieldset {
@@ -76,8 +76,8 @@ textarea {
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
   appearance: none;
-  background-color: #F9F2F2;
-  border: 1px solid #ddd;
+  background-color: #1502FF;
+  border: 1px solid #DCD5D8;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
@@ -88,22 +88,22 @@ textarea {
 }
 
 [type='color']:hover, [type='date']:hover, [type='datetime']:hover, [type='datetime-local']:hover, [type='email']:hover, [type='month']:hover, [type='number']:hover, [type='password']:hover, [type='search']:hover, [type='tel']:hover, [type='text']:hover, [type='time']:hover, [type='url']:hover, [type='week']:hover, input:not([type]):hover, textarea:hover {
-  border-color: #b1b1b1;
+  border-color: #b0aaad;
 }
 
 [type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus {
-  border-color: #304bcb;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(48, 75, 203, 0.7);
+  border-color: #CAF88B;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(202, 248, 139, 0.7);
   outline: none;
 }
 
 [type='color']:disabled, [type='date']:disabled, [type='datetime']:disabled, [type='datetime-local']:disabled, [type='email']:disabled, [type='month']:disabled, [type='number']:disabled, [type='password']:disabled, [type='search']:disabled, [type='tel']:disabled, [type='text']:disabled, [type='time']:disabled, [type='url']:disabled, [type='week']:disabled, input:not([type]):disabled, textarea:disabled {
-  background-color: #ede6e6;
+  background-color: #1402f2;
   cursor: not-allowed;
 }
 
 [type='color']:disabled:hover, [type='date']:disabled:hover, [type='datetime']:disabled:hover, [type='datetime-local']:disabled:hover, [type='email']:disabled:hover, [type='month']:disabled:hover, [type='number']:disabled:hover, [type='password']:disabled:hover, [type='search']:disabled:hover, [type='tel']:disabled:hover, [type='text']:disabled:hover, [type='time']:disabled:hover, [type='url']:disabled:hover, [type='week']:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover {
-  border: 1px solid #ddd;
+  border: 1px solid #DCD5D8;
 }
 
 [type='color']::placeholder, [type='date']::placeholder, [type='datetime']::placeholder, [type='datetime-local']::placeholder, [type='email']::placeholder, [type='month']::placeholder, [type='number']::placeholder, [type='password']::placeholder, [type='search']::placeholder, [type='tel']::placeholder, [type='text']::placeholder, [type='time']::placeholder, [type='url']::placeholder, [type='week']::placeholder, input:not([type])::placeholder, textarea::placeholder {
@@ -134,7 +134,7 @@ select {
 [type="radio"]:focus,
 [type="file"]:focus,
 select:focus {
-  outline: 3px solid rgba(48, 75, 203, 0.6);
+  outline: 3px solid rgba(202, 248, 139, 0.6);
   outline-offset: 2px;
 }
 
@@ -215,7 +215,7 @@ tbody {
 }
 
 tr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #DCD5D8;
 }
 
 th {
@@ -228,7 +228,7 @@ td {
 }
 
 html {
-  color: #333;
+  color: #333333;
   font-family: "Raleway", serif;
   font-size: 100%;
   line-height: 1.5;
@@ -236,25 +236,30 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
+h1 {
+  font-family: "Alice", serif;
+  font-size: 1.25em;
+  line-height: 1.1851851852;
+  margin: 0 0 0.75em;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Alice", serif;
+  font-family: "Raleway", serif;
   font-size: 1.25em;
   line-height: 1.1851851852;
   margin: 0 0 0.75em;
-  letter-spacing: -0.10875rem;
 }
 
 p {
-  margin: 0 0 0.75em;
+  margin: 0 0 1.5em;
 }
 
 a {
-  color: #304bcb;
+  color: #CAF88B;
   text-decoration-skip: ink;
   text-decoration: none;
   transition: color 150ms ease;
@@ -262,7 +267,7 @@ a {
 
 @media (hover: hover) {
   a:hover {
-    color: #4B67F3;
+    color: #FCD4CA;
     cursor: pointer;
   }
 }
@@ -272,7 +277,7 @@ a:focus {
 }
 
 hr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #DCD5D8;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -280,36 +285,8 @@ hr {
 }
 
 h1 {
-  font-size: 1.9375rem;
+  font-size: 4rem;
   font-weight: normal;
-}
-
-@media only screen and (min-width: 31rem) {
-  h1 {
-    /* width > 496 */
-    font-size: 3rem;
-  }
-}
-
-@media only screen and (min-width: 38rem) {
-  h1 {
-    /* width > 608 */
-    font-size: 3.6875rem;
-  }
-}
-
-@media only screen and (min-width: 51rem) {
-  h1 {
-    /* width > 816 */
-    font-size: 4rem;
-  }
-}
-
-@media only screen and (min-width: 62rem) {
-  h1 {
-    /* width > 992 */
-    font-size: 5rem;
-  }
 }
 
 @media only screen and (min-width: 75rem) {
@@ -343,72 +320,33 @@ h1 {
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #304bcb;
-  transition: all 2s ease;
-}
-
-@media only screen and (max-width: 48rem) {
-  body.home-page h1 {
-    margin-bottom: 2%;
-  }
-}
-
-body.home-page #header .logo {
-  color: #304bcb;
-}
-
-body.home-page #header .logo:hover {
-  color: #4B67F3;
-}
-
-body.home-page #nav ul li a {
-  color: #304bcb;
-}
-
-body.home-page #nav ul li a:hover {
-  color: #4B67F3;
 }
 
 #app {
   height: 100%;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 #granim-canvas {
   width: 100%;
   height: 100%;
   z-index: -1;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
 .main-content,
-#header,
-#nav {
-  width: calc(100% - 30px);
-  margin-left: 15px;
+#header {
+  width: 75%;
+  margin-left: 5%;
 }
 
 @media only screen and (min-width: 48rem) {
   .main-content,
-  #header,
-  #nav {
-    width: calc(100% - 12rem);
-    margin-left: 6rem;
+  #header {
+    width: 80%;
+    margin-left: 10%;
   }
-}
-
-#nav:hover a,
-#header:hover a {
-  color: #304bcb;
-}
-
-#nav:hover a:hover,
-#header:hover a:hover {
-  color: #4B67F3;
 }
 
 #header {
@@ -422,8 +360,12 @@ body.home-page #nav ul li a:hover {
 
 #header .logo {
   font-family: "Gilroy-ExtraBold", sans-serif;
-  color: rgba(0, 0, 0, 0.1);
+  color: #1502FF;
   font-size: 1.5rem;
+}
+
+#header .logo:hover {
+  color: #CAF88B;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -435,47 +377,50 @@ body.home-page #nav ul li a:hover {
   }
 }
 
-#nav {
+ul#nav {
   position: fixed;
-  bottom: 2rem;
-  padding-top: 2rem;
+  bottom: 5%;
+  right: 5%;
 }
 
-@media only screen and (max-width: 48rem) {
-  #nav {
-    bottom: 5%;
+@media only screen and (min-width: 48rem) {
+  ul#nav {
+    bottom: 2rem;
   }
 }
 
-#nav ul {
-  text-align: right;
-}
-
-#nav ul li {
-  display: inline-block;
-  margin-left: 1.5rem;
+ul#nav li {
   font-size: 1.5rem;
   font-family: "Gilroy-ExtraBold", sans-serif;
+  line-height: 2;
 }
 
-#nav ul li:nth-of-type(1) {
+@media only screen and (min-width: 48rem) {
+  ul#nav li {
+    display: inline-block;
+    line-height: 1.5;
+    margin-left: 2.2rem;
+  }
+}
+
+ul#nav li:nth-of-type(1) {
   margin-left: 0;
 }
 
-#nav ul li a {
+ul#nav li a {
   position: relative;
-  color: rgba(0, 0, 0, 0.1);
+  color: #1502FF;
 }
 
-#nav ul li a:hover {
-  color: #4B67F3;
+ul#nav li a:hover {
+  color: #CAF88B;
 }
 
-#nav ul li a:after {
+ul#nav li a:after {
   position: absolute;
   z-index: 2;
   content: attr(title);
-  color: #4B67F3;
+  color: #CAF88B;
   text-align: center;
   font-size: 1rem;
   top: -2rem;
@@ -486,14 +431,8 @@ body.home-page #nav ul li a:hover {
 }
 
 @media (hover: hover) {
-  #nav ul li a:hover:after {
+  ul#nav li a:hover:after {
     opacity: 1;
-  }
-}
-
-@media only screen and (min-width: 48rem) {
-  #nav ul li {
-    margin-left: 2.2rem;
   }
 }
 
@@ -506,6 +445,17 @@ body.home-page #nav ul li a:hover {
   transition: opacity 0.4s ease;
 }
 
+@media only screen and (max-width: 48rem) {
+  .main-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.content {
+  max-width: 64rem;
+}
+
 .visible {
   opacity: 1;
   transition: opacity 2.2s ease;
@@ -513,22 +463,51 @@ body.home-page #nav ul li a:hover {
 
 .button {
   padding: 1rem 2rem;
-  border: 4px solid #F9F2F2;
+  border: 4px solid #FFFFFF;
   border-radius: 100px;
   font-weight: 700;
-  color: #F9F2F2;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 1rem;
   transition: all 150ms ease;
 }
 
 .button:hover {
-  border: 4px solid #4B67F3;
-  color: #4B67F3;
+  border: 4px solid #CAF88B;
+  color: #CAF88B;
+}
+
+@media only screen and (max-width: 48rem) {
+  .button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #FFFFFF;
+  }
 }
 
 #home-page {
-  color: #F9F2F2;
+  color: #FFFFFF;
   min-height: 100%;
-  padding: 0;
+}
+
+.home-page h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.home-page #header .logo {
+  color: #CAF88B;
+}
+
+.home-page #header .logo:hover {
+  color: #FCD4CA;
+}
+
+.home-page ul#nav li a {
+  color: #CAF88B;
+}
+
+.home-page ul#nav li a:hover {
+  color: #CAF88B;
 }
 
 /*# sourceMappingURL=styles.css.map */

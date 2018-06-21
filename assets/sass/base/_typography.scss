@@ -7,21 +7,28 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
+h1 {
+  font-family: $heading-font-family;
+  font-size: modular-scale(1);
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+  // letter-spacing: -0.10875rem;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  font-family: $base-font-family;
   font-size: modular-scale(1);
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  letter-spacing: -0.10875rem;
+  // letter-spacing: -0.10875rem;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $base-spacing;
 }
 
 a {
@@ -32,7 +39,7 @@ a {
 
   @media (hover:hover) {
     &:hover {
-      color: $bright-blue;
+      color: $hover-color;
       cursor: pointer;
     }
 }
@@ -61,24 +68,24 @@ hr {
 
 // .home-page, .about {
   h1 {
-    font-size: 1.9375rem;
+    font-size: 4rem;
     font-weight: normal;
 
-    @media only screen and (min-width: 31rem) { /* width > 496 */
-      font-size: 3rem;
-    }
+    // @media only screen and (min-width: 31rem) { /* width > 496 */
+    //   font-size: 3rem;
+    // }
 
-    @media only screen and (min-width: 38rem) { /* width > 608 */
-      font-size: 3.6875rem;
-    }
+    // @media only screen and (min-width: 38rem) { /* width > 608 */
+    //   font-size: 3.6875rem;
+    // }
 
-    @media only screen and (min-width: 51rem) { /* width > 816 */
-      font-size: 4rem;
-    }
+    // @media only screen and (min-width: 51rem) { /* width > 816 */
+    //   font-size: 4rem;
+    // }
 
-    @media only screen and (min-width: 62rem) { /* width > 992 */
-      font-size: 5rem;
-    }
+    // @media only screen and (min-width: 62rem) { /* width > 992 */
+    //   font-size: 5rem;
+    // }
 
     @media only screen and (min-width: 75rem) { /* width > 1200 */
       font-size: 6rem;
@@ -96,4 +103,41 @@ hr {
       font-size: 9rem;
     }
   }
+
+  // h2 {
+  //   font-size: 1rem;
+  //   font-weight: normal;
+
+  //   // @media only screen and (min-width: 31rem) { /* width > 496 */
+  //   //   font-size: 1rem;
+  //   // }
+
+  //   // @media only screen and (min-width: 38rem) { /* width > 608 */
+  //   //   font-size: .6875rem;
+  //   // }
+
+  //   @media only screen and (min-width: 51rem) { /* width > 816 */
+  //     font-size: 1rem;
+  //   }
+
+  //   @media only screen and (min-width: 62rem) { /* width > 992 */
+  //     font-size: 2rem;
+  //   }
+
+  //   @media only screen and (min-width: 75rem) { /* width > 1200 */
+  //     font-size: 3rem;
+  //   }
+
+  //   @media only screen and (min-width: 89rem) { /* width > 1440 */
+  //     font-size: 4rem;
+  //   }
+
+  //   @media only screen and (min-width: 100rem) { /* width > 1600 */
+  //     font-size: 5rem;
+  //   }
+
+  //   @media only screen and (min-width: 140rem) { /* width > 2240 */
+  //     font-size: 6rem;
+  //   }
+  // }
 // }
