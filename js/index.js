@@ -23,16 +23,20 @@ var granimInstance = new Granim({
 	stateTransitionSpeed: 300,
 	states : {	
 		"default-state" : {
-			gradients: [ ['#FF93B4', '#FFA6C1'] ],
+			gradients: [ ['#1502ff', '#1502ff'], ],
 			loop: false
        	},
        	"home-page" : {
 			gradients: [ 
-				['#F05F6A', '#E25B87'],
+				// ['#4B67F3', '#FFFFFF'],
+				// ['#FFFFFF', '#4B67F3'],
 				// ['#FFA6C1', '#E66F96'],
-				['#FF8CA8', '#FFA6C1'],
+				// ['#FF8CA8', '#FFA6C1'],
+				['#1502ff', '#2A48D3'],
+				['#2A48D3', '#1502ff'],
+				['#2A48D3', '#2A48D3']
 			],
-            transitionSpeed: 4000,
+            transitionSpeed: 1000,
             loop: false
        	},
        	"portfolio" : {
