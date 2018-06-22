@@ -3,10 +3,8 @@
 const contentful = require('contentful')
 const chalk = require('chalk')
 const Table = require('cli-table2')
-
 const SPACE_ID = 'k7w2q9r6o1jp'
 const ACCESS_TOKEN = '63f7200892fe8c001dab204ea3d2520334b95d9e6e2a22d537f125278663afdd'
-
 const client = contentful.createClient({
 	space: SPACE_ID,
 	accessToken: ACCESS_TOKEN
@@ -23,7 +21,7 @@ var granimInstance = new Granim({
 	stateTransitionSpeed: 300,
 	states : {	
 		"default-state" : {
-			gradients: [ ['#1502ff', '#1502ff'], ],
+			gradients: [ ['#1502FF', '#1502FF'], ],
 			loop: false
        	},
        	"home-page" : {

@@ -8,7 +8,7 @@
 
 button, [type='button'], [type='reset'], [type='submit'] {
   appearance: none;
-  background-color: #CAF88B;
+  background-color: #C4FD75;
   border: 0;
   border-radius: 3px;
   color: #000;
@@ -29,12 +29,12 @@ button, [type='button'], [type='reset'], [type='submit'] {
 }
 
 button:hover, [type='button']:hover, [type='reset']:hover, [type='submit']:hover {
-  background-color: #a2c66f;
+  background-color: #9dca5e;
   color: #000;
 }
 
 button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus {
-  outline: 3px solid rgba(202, 248, 139, 0.6);
+  outline: 3px solid rgba(196, 253, 117, 0.6);
   outline-offset: 2px;
 }
 
@@ -44,7 +44,7 @@ button:disabled, [type='button']:disabled, [type='reset']:disabled, [type='submi
 }
 
 button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
-  background-color: #CAF88B;
+  background-color: #C4FD75;
 }
 
 fieldset {
@@ -92,8 +92,8 @@ textarea {
 }
 
 [type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus {
-  border-color: #CAF88B;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(202, 248, 139, 0.7);
+  border-color: #C4FD75;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(196, 253, 117, 0.7);
   outline: none;
 }
 
@@ -134,7 +134,7 @@ select {
 [type="radio"]:focus,
 [type="file"]:focus,
 select:focus {
-  outline: 3px solid rgba(202, 248, 139, 0.6);
+  outline: 3px solid rgba(196, 253, 117, 0.6);
   outline-offset: 2px;
 }
 
@@ -238,9 +238,38 @@ html {
 
 h1 {
   font-family: "Alice", serif;
-  font-size: 1.25em;
+  font-weight: normal;
   line-height: 1.1851851852;
   margin: 0 0 0.75em;
+  font-size: 3.375rem;
+}
+
+@media only screen and (min-width: 75rem) {
+  h1 {
+    /* width > 1200 */
+    font-size: 5.0625rem;
+  }
+}
+
+@media only screen and (min-width: 89rem) {
+  h1 {
+    /* width > 1440 */
+    font-size: 7.59375rem;
+  }
+}
+
+@media only screen and (min-width: 100rem) {
+  h1 {
+    /* width > 1600 */
+    font-size: 11.390625rem;
+  }
+}
+
+@media only screen and (min-width: 140rem) {
+  h1 {
+    /* width > 2240 */
+    font-size: 17.0859375rem;
+  }
 }
 
 h2,
@@ -249,9 +278,9 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", serif;
-  font-size: 1.25em;
   line-height: 1.1851851852;
   margin: 0 0 0.75em;
+  font-size: 1.25em;
 }
 
 p {
@@ -259,7 +288,7 @@ p {
 }
 
 a {
-  color: #CAF88B;
+  color: #C4FD75;
   text-decoration-skip: ink;
   text-decoration: none;
   transition: color 150ms ease;
@@ -267,7 +296,7 @@ a {
 
 @media (hover: hover) {
   a:hover {
-    color: #FCD4CA;
+    color: #FEC4B6;
     cursor: pointer;
   }
 }
@@ -284,42 +313,10 @@ hr {
   margin: 1.5em 0;
 }
 
-h1 {
-  font-size: 4rem;
-  font-weight: normal;
-}
-
-@media only screen and (min-width: 75rem) {
-  h1 {
-    /* width > 1200 */
-    font-size: 6rem;
-  }
-}
-
-@media only screen and (min-width: 89rem) {
-  h1 {
-    /* width > 1440 */
-    font-size: 7rem;
-  }
-}
-
-@media only screen and (min-width: 100rem) {
-  h1 {
-    /* width > 1600 */
-    font-size: 8rem;
-  }
-}
-
-@media only screen and (min-width: 140rem) {
-  h1 {
-    /* width > 2240 */
-    font-size: 9rem;
-  }
-}
-
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #FEC4B6;
 }
 
 #app {
@@ -329,7 +326,7 @@ body {
 
 #granim-canvas {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
   position: fixed;
   top: 0;
@@ -365,7 +362,7 @@ body {
 }
 
 #header .logo:hover {
-  color: #CAF88B;
+  color: #C4FD75;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -393,6 +390,7 @@ ul#nav li {
   font-size: 1.5rem;
   font-family: "Gilroy-ExtraBold", sans-serif;
   line-height: 2;
+  text-align: center;
 }
 
 @media only screen and (min-width: 48rem) {
@@ -413,14 +411,14 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-  color: #CAF88B;
+  color: #C4FD75;
 }
 
 ul#nav li a:after {
   position: absolute;
   z-index: 2;
   content: attr(title);
-  color: #CAF88B;
+  color: #C4FD75;
   text-align: center;
   font-size: 1rem;
   top: -2rem;
@@ -473,8 +471,8 @@ ul#nav li a:after {
 }
 
 .button:hover {
-  border: 4px solid #CAF88B;
-  color: #CAF88B;
+  border: 4px solid #C4FD75;
+  color: #C4FD75;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -489,25 +487,31 @@ ul#nav li a:after {
   min-height: 100%;
 }
 
+@media only screen and (max-width: 48rem) {
+  .home-page {
+    background-color: #2A48D3;
+  }
+}
+
 .home-page h2 {
   font-size: 2rem;
   font-weight: normal;
 }
 
 .home-page #header .logo {
-  color: #CAF88B;
+  color: #C4FD75;
 }
 
 .home-page #header .logo:hover {
-  color: #FCD4CA;
+  color: #FEC4B6;
 }
 
 .home-page ul#nav li a {
-  color: #CAF88B;
+  color: #C4FD75;
 }
 
 .home-page ul#nav li a:hover {
-  color: #CAF88B;
+  color: #C4FD75;
 }
 
 /*# sourceMappingURL=styles.css.map */
