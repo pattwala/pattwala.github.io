@@ -28,10 +28,6 @@ body {
 	top: 0;
 }
 
-.hidden {
-	display: none;
-}
-
 .main-content, 
 #header {
 	@include mobile-width;
@@ -190,11 +186,6 @@ ul#nav {
 		background-color: $blue;
 	}
 
-	h2 {
-		font-size: 2rem;
-		font-weight: normal;
-	}
-
 	#header .logo {
 		color: $lime;
 		&:hover {
@@ -206,15 +197,6 @@ ul#nav {
 		color: $lime;
 		&:hover {
 			color: $lime;
-		}
-	}
-
-	.subHeading {
-		.roles {
-			position: relative;
-		}
-		.role {
-			position: absolute;
 		}
 	}
 }

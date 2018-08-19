@@ -283,6 +283,11 @@ h6 {
   font-size: 1.25em;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
 p {
   margin: 0 0 1.5em;
 }
@@ -330,10 +335,6 @@ body {
   z-index: -1;
   position: fixed;
   top: 0;
-}
-
-.hidden {
-  display: none;
 }
 
 .main-content,
@@ -497,11 +498,6 @@ ul#nav li a:after {
   }
 }
 
-.home-page h2 {
-  font-size: 2rem;
-  font-weight: normal;
-}
-
 .home-page #header .logo {
   color: #C4FD75;
 }
@@ -516,14 +512,6 @@ ul#nav li a:after {
 
 .home-page ul#nav li a:hover {
   color: #C4FD75;
-}
-
-.home-page .subHeading .roles {
-  position: relative;
-}
-
-.home-page .subHeading .role {
-  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */
