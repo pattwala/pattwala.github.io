@@ -332,6 +332,10 @@ body {
   top: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .main-content,
 #header {
   width: 75%;
@@ -512,6 +516,14 @@ ul#nav li a:after {
 
 .home-page ul#nav li a:hover {
   color: #C4FD75;
+}
+
+.home-page .subHeading .roles {
+  position: relative;
+}
+
+.home-page .subHeading .role {
+  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */

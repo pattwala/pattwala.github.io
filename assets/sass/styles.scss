@@ -28,6 +28,10 @@ body {
 	top: 0;
 }
 
+.hidden {
+	display: none;
+}
+
 .main-content, 
 #header {
 	@include mobile-width;
@@ -202,6 +206,15 @@ ul#nav {
 		color: $lime;
 		&:hover {
 			color: $lime;
+		}
+	}
+
+	.subHeading {
+		.roles {
+			position: relative;
+		}
+		.role {
+			position: absolute;
 		}
 	}
 }
