@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,9 +7,9 @@
 		"uuidString": "E777115B-85E2-4F3E-BA59-E478C2A5E495"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/_bourbon.scss": {
+	"/_bourbon.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -17,29 +17,29 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_bourbon.css",
+		"oAP": "/_bourbon.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/styles.css": {
+	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
+		"oAP": "/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/styles.css.map": {
+	"/css/styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/css\/styles.css.map",
+		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
-	"\/sass\/_neat.scss": {
+	"/sass/_neat.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -47,12 +47,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_neat.css",
+		"oAP": "/sass/_neat.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_base.scss": {
+	"/sass/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -60,12 +60,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_base.css",
+		"oAP": "/sass/base/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_buttons.scss": {
+	"/sass/base/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -73,12 +73,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_buttons.css",
+		"oAP": "/sass/base/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_forms.scss": {
+	"/sass/base/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -86,12 +86,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_forms.css",
+		"oAP": "/sass/base/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_layout.scss": {
+	"/sass/base/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -99,12 +99,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_layout.css",
+		"oAP": "/sass/base/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_lists.scss": {
+	"/sass/base/_lists.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -112,12 +112,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_lists.css",
+		"oAP": "/sass/base/_lists.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_media.scss": {
+	"/sass/base/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -125,12 +125,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_media.css",
+		"oAP": "/sass/base/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_tables.scss": {
+	"/sass/base/_tables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -138,12 +138,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_tables.css",
+		"oAP": "/sass/base/_tables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_typography.scss": {
+	"/sass/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -151,12 +151,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_typography.css",
+		"oAP": "/sass/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/base\/_variables.scss": {
+	"/sass/base/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -164,12 +164,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/base\/_variables.css",
+		"oAP": "/sass/base/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/helpers\/_buttons-list.scss": {
+	"/sass/helpers/_buttons-list.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -177,12 +177,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/helpers\/_buttons-list.css",
+		"oAP": "/sass/helpers/_buttons-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/helpers\/_scales.scss": {
+	"/sass/helpers/_scales.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -190,12 +190,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/helpers\/_scales.css",
+		"oAP": "/sass/helpers/_scales.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/helpers\/_text-inputs-list.scss": {
+	"/sass/helpers/_text-inputs-list.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -203,12 +203,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/helpers\/_text-inputs-list.css",
+		"oAP": "/sass/helpers/_text-inputs-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_border-color.scss": {
+	"/sass/library/_border-color.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -216,12 +216,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_border-color.css",
+		"oAP": "/sass/library/_border-color.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_border-radius.scss": {
+	"/sass/library/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -229,12 +229,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_border-radius.css",
+		"oAP": "/sass/library/_border-radius.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_border-style.scss": {
+	"/sass/library/_border-style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -242,12 +242,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_border-style.css",
+		"oAP": "/sass/library/_border-style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_border-width.scss": {
+	"/sass/library/_border-width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -255,12 +255,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_border-width.css",
+		"oAP": "/sass/library/_border-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_buttons.scss": {
+	"/sass/library/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -268,12 +268,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_buttons.css",
+		"oAP": "/sass/library/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_clearfix.scss": {
+	"/sass/library/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -281,12 +281,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_clearfix.css",
+		"oAP": "/sass/library/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_contrast-switch.scss": {
+	"/sass/library/_contrast-switch.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -294,12 +294,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_contrast-switch.css",
+		"oAP": "/sass/library/_contrast-switch.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_ellipsis.scss": {
+	"/sass/library/_ellipsis.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -307,12 +307,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_ellipsis.css",
+		"oAP": "/sass/library/_ellipsis.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_font-face.scss": {
+	"/sass/library/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -320,12 +320,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_font-face.css",
+		"oAP": "/sass/library/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_font-stacks.scss": {
+	"/sass/library/_font-stacks.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -333,12 +333,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_font-stacks.css",
+		"oAP": "/sass/library/_font-stacks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_hide-text.scss": {
+	"/sass/library/_hide-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -346,12 +346,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_hide-text.css",
+		"oAP": "/sass/library/_hide-text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_hide-visually.scss": {
+	"/sass/library/_hide-visually.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -359,12 +359,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_hide-visually.css",
+		"oAP": "/sass/library/_hide-visually.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_margin.scss": {
+	"/sass/library/_margin.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -372,12 +372,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_margin.css",
+		"oAP": "/sass/library/_margin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_modular-scale.scss": {
+	"/sass/library/_modular-scale.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -385,12 +385,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_modular-scale.css",
+		"oAP": "/sass/library/_modular-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_overflow-wrap.scss": {
+	"/sass/library/_overflow-wrap.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -398,12 +398,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_overflow-wrap.css",
+		"oAP": "/sass/library/_overflow-wrap.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_padding.scss": {
+	"/sass/library/_padding.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -411,12 +411,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_padding.css",
+		"oAP": "/sass/library/_padding.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_position.scss": {
+	"/sass/library/_position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -424,12 +424,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_position.css",
+		"oAP": "/sass/library/_position.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_prefixer.scss": {
+	"/sass/library/_prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -437,12 +437,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_prefixer.css",
+		"oAP": "/sass/library/_prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_shade.scss": {
+	"/sass/library/_shade.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -450,12 +450,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_shade.css",
+		"oAP": "/sass/library/_shade.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_size.scss": {
+	"/sass/library/_size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -463,12 +463,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_size.css",
+		"oAP": "/sass/library/_size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_strip-unit.scss": {
+	"/sass/library/_strip-unit.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -476,12 +476,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_strip-unit.css",
+		"oAP": "/sass/library/_strip-unit.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_text-inputs.scss": {
+	"/sass/library/_text-inputs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -489,12 +489,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_text-inputs.css",
+		"oAP": "/sass/library/_text-inputs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_timing-functions.scss": {
+	"/sass/library/_timing-functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -502,12 +502,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_timing-functions.css",
+		"oAP": "/sass/library/_timing-functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_tint.scss": {
+	"/sass/library/_tint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -515,12 +515,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_tint.css",
+		"oAP": "/sass/library/_tint.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_triangle.scss": {
+	"/sass/library/_triangle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -528,12 +528,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_triangle.css",
+		"oAP": "/sass/library/_triangle.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/library\/_value-prefixer.scss": {
+	"/sass/library/_value-prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -541,12 +541,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/library\/_value-prefixer.css",
+		"oAP": "/sass/library/_value-prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-append-grid-visual.scss": {
+	"/sass/neat/functions/_neat-append-grid-visual.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -554,12 +554,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-append-grid-visual.css",
+		"oAP": "/sass/neat/functions/_neat-append-grid-visual.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-column-default.scss": {
+	"/sass/neat/functions/_neat-column-default.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -567,12 +567,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-column-default.css",
+		"oAP": "/sass/neat/functions/_neat-column-default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-column-ratio.scss": {
+	"/sass/neat/functions/_neat-column-ratio.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -580,12 +580,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-column-ratio.css",
+		"oAP": "/sass/neat/functions/_neat-column-ratio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-column-width.scss": {
+	"/sass/neat/functions/_neat-column-width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -593,12 +593,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-column-width.css",
+		"oAP": "/sass/neat/functions/_neat-column-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-float-direction.scss": {
+	"/sass/neat/functions/_neat-float-direction.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -606,12 +606,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-float-direction.css",
+		"oAP": "/sass/neat/functions/_neat-float-direction.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-merge-defaults.scss": {
+	"/sass/neat/functions/_neat-merge-defaults.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -619,12 +619,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-merge-defaults.css",
+		"oAP": "/sass/neat/functions/_neat-merge-defaults.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-opposite-direction.scss": {
+	"/sass/neat/functions/_neat-opposite-direction.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -632,12 +632,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-opposite-direction.css",
+		"oAP": "/sass/neat/functions/_neat-opposite-direction.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-parse-columns.scss": {
+	"/sass/neat/functions/_neat-parse-columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -645,12 +645,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-parse-columns.css",
+		"oAP": "/sass/neat/functions/_neat-parse-columns.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_neat-parse-media.scss": {
+	"/sass/neat/functions/_neat-parse-media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -658,12 +658,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_neat-parse-media.css",
+		"oAP": "/sass/neat/functions/_neat-parse-media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/functions\/_retrieve-neat-settings.scss": {
+	"/sass/neat/functions/_retrieve-neat-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -671,12 +671,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/functions\/_retrieve-neat-settings.css",
+		"oAP": "/sass/neat/functions/_retrieve-neat-settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-collapse.scss": {
+	"/sass/neat/mixins/_grid-collapse.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -684,12 +684,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-collapse.css",
+		"oAP": "/sass/neat/mixins/_grid-collapse.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-column.scss": {
+	"/sass/neat/mixins/_grid-column.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -697,12 +697,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-column.css",
+		"oAP": "/sass/neat/mixins/_grid-column.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-container.scss": {
+	"/sass/neat/mixins/_grid-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -710,12 +710,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-container.css",
+		"oAP": "/sass/neat/mixins/_grid-container.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-media.scss": {
+	"/sass/neat/mixins/_grid-media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -723,12 +723,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-media.css",
+		"oAP": "/sass/neat/mixins/_grid-media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-push.scss": {
+	"/sass/neat/mixins/_grid-push.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -736,12 +736,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-push.css",
+		"oAP": "/sass/neat/mixins/_grid-push.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-shift.scss": {
+	"/sass/neat/mixins/_grid-shift.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -749,12 +749,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-shift.css",
+		"oAP": "/sass/neat/mixins/_grid-shift.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/mixins\/_grid-visual.scss": {
+	"/sass/neat/mixins/_grid-visual.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -762,12 +762,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/mixins\/_grid-visual.css",
+		"oAP": "/sass/neat/mixins/_grid-visual.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/neat\/settings\/_settings.scss": {
+	"/sass/neat/settings/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -775,12 +775,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/neat\/settings\/_settings.css",
+		"oAP": "/sass/neat/settings/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/settings\/_settings.scss": {
+	"/sass/settings/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -788,12 +788,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/settings\/_settings.css",
+		"oAP": "/sass/settings/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/styles.scss": {
+	"/sass/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -801,12 +801,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/styles.css",
+		"oAP": "/css/styles.css",
 		"oF": 2,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_assign-inputs.scss": {
+	"/sass/utilities/_assign-inputs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -814,12 +814,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_assign-inputs.css",
+		"oAP": "/sass/utilities/_assign-inputs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_compact-shorthand.scss": {
+	"/sass/utilities/_compact-shorthand.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -827,12 +827,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_compact-shorthand.css",
+		"oAP": "/sass/utilities/_compact-shorthand.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_contrast-ratio.scss": {
+	"/sass/utilities/_contrast-ratio.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -840,12 +840,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_contrast-ratio.css",
+		"oAP": "/sass/utilities/_contrast-ratio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_directional-property.scss": {
+	"/sass/utilities/_directional-property.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -853,12 +853,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_directional-property.css",
+		"oAP": "/sass/utilities/_directional-property.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_fetch-bourbon-setting.scss": {
+	"/sass/utilities/_fetch-bourbon-setting.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -866,12 +866,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_fetch-bourbon-setting.css",
+		"oAP": "/sass/utilities/_fetch-bourbon-setting.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_font-source-declaration.scss": {
+	"/sass/utilities/_font-source-declaration.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -879,12 +879,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_font-source-declaration.css",
+		"oAP": "/sass/utilities/_font-source-declaration.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_gamma.scss": {
+	"/sass/utilities/_gamma.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -892,12 +892,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_gamma.css",
+		"oAP": "/sass/utilities/_gamma.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_lightness.scss": {
+	"/sass/utilities/_lightness.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -905,12 +905,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_lightness.css",
+		"oAP": "/sass/utilities/_lightness.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/utilities\/_unpack-shorthand.scss": {
+	"/sass/utilities/_unpack-shorthand.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -918,12 +918,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/utilities\/_unpack-shorthand.css",
+		"oAP": "/sass/utilities/_unpack-shorthand.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_contains-falsy.scss": {
+	"/sass/validators/_contains-falsy.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -931,12 +931,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_contains-falsy.css",
+		"oAP": "/sass/validators/_contains-falsy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_contains.scss": {
+	"/sass/validators/_contains.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -944,12 +944,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_contains.css",
+		"oAP": "/sass/validators/_contains.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_is-color.scss": {
+	"/sass/validators/_is-color.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -957,12 +957,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_is-color.css",
+		"oAP": "/sass/validators/_is-color.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_is-length.scss": {
+	"/sass/validators/_is-length.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -970,12 +970,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_is-length.css",
+		"oAP": "/sass/validators/_is-length.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_is-number.scss": {
+	"/sass/validators/_is-number.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -983,12 +983,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_is-number.css",
+		"oAP": "/sass/validators/_is-number.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/validators\/_is-size.scss": {
+	"/sass/validators/_is-size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -996,44 +996,44 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/validators\/_is-size.css",
+		"oAP": "/sass/validators/_is-size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/uploads\/Pramesh Attwala - Resume.pdf": {
+	"/uploads/Pramesh Attwala - Resume.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/uploads\/Pramesh Attwala - Resume.pdf",
+		"oAP": "/uploads/Pramesh Attwala - Resume.pdf",
 		"oF": 0
 		},
-	"\/webfonts\/36DB87_0_0.eot": {
+	"/webfonts/36DB87_0_0.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/36DB87_0_0.eot",
+		"oAP": "/webfonts/36DB87_0_0.eot",
 		"oF": 0
 		},
-	"\/webfonts\/36DB87_0_0.ttf": {
+	"/webfonts/36DB87_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/36DB87_0_0.ttf",
+		"oAP": "/webfonts/36DB87_0_0.ttf",
 		"oF": 0
 		},
-	"\/webfonts\/36DB87_0_0.woff": {
+	"/webfonts/36DB87_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/36DB87_0_0.woff",
+		"oAP": "/webfonts/36DB87_0_0.woff",
 		"oF": 0
 		},
-	"\/webfonts\/36DB87_0_0.woff2": {
+	"/webfonts/36DB87_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/36DB87_0_0.woff2",
+		"oAP": "/webfonts/36DB87_0_0.woff2",
 		"oF": 0
 		}
 	},
@@ -1053,141 +1053,94 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1199,7 +1152,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1211,7 +1185,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1247,53 +1239,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1302,6 +1287,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1659,6 +1645,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1670,6 +1660,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1715,6 +1709,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1733,10 +1731,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1935,9 +1929,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2291,6 +2289,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2319,6 +2321,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2326,6 +2332,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2381,7 +2391,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2441,7 +2451,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/pattwala.sandbox\/",
+	"externalServerAddress": "http://pattwala.sandbox/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2836,7 +2846,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2855,7 +2864,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2887,19 +2896,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2955,7 +2964,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2984,7 +2993,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3008,36 +3017,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3045,11 +3088,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3073,6 +3116,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3089,7 +3136,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3097,20 +3152,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3125,6 +3192,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3133,12 +3208,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3149,11 +3232,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3165,23 +3256,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3193,9 +3312,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
