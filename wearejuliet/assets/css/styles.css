@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Asap Con';
+  font-style: normal;
+  src: local('Asap Con') ,url('../fonts/AsapCondensed-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: #1a1917;
+}
+
+.main {
+  text-align: center;
+  background-color: rgba(26, 25, 23, 0.3); /* #1a1917 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  font-family: 'Asap Con';
+}
+.background {
+  position: absolute!important;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+.tile {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.bg1 {background-image: url('/assets/images/bg1.jpg');}
+.bg2 {background-image: url('/assets/images/bg2.jpg');}
+.bg3 {background-image: url('/assets/images/bg3.jpg');}
+.bg4 {background-image: url('/assets/images/bg4.jpg');}
+.bg5 {background-image: url('/assets/images/bg5.jpg');}
+
+
+
+.logo-title {
+  width: 300px;
+  /* height: 40vmin; */
+  pointer-events: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-bottom: 75px;
+}
+
+.sub-title {
+  font-family: 'Asap Con';
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #f4eee5;
+}
+
+.address {
+  margin-bottom: 50px;
+}
+
+.address .sub-title,
+.contact .sub-title {
+  margin: 0;
+}
+
+.email {
+  text-decoration: none;
+  color: #f4eee5;
+}
+
+.rose {
+  position: absolute;
+  width: 32px;
+  top:25px;
+  right: 25px;
+}
+
+.insta {
+    width: 20px;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-title {
+    width: 200px;
+    /* height: 40vmin; */
+    pointer-events: none;
+  }
+  
+  .App-header {
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin-bottom: 25px;
+  }
+  
+  .sub-title {
+    font-family: 'Asap Con';
+    font-size: 14px;
+  }
+
+  .contact .samples.sub-title{
+    margin-bottom: 20px;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sep {
+    display: none;
+  }
+  
+  .address {
+    margin-bottom: 50px;
+  }
+  
+  .address .sub-title,
+  .contact .sub-title {
+    margin: 0;
+  }
+  
+  .email {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .bg2 {
+    background-position: -40vw center;
+  }
+  .bg3 {
+    background-position: -60vw center;
+  }
+  .bg4 {
+    background-position: -150vw center;
+  }
+  .bg4 {
+    background-position: -110vw center;
+  }
+}
