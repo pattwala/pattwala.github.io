@@ -15,7 +15,7 @@ p {
   letter-spacing: 1px;
   color: #f4eee5;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.15;
 }
 a {
   text-decoration: none;
@@ -72,9 +72,6 @@ a {
 .logo-title {
   width: 250px;
   margin-bottom: 1rem;
-}
-.title p {
-  text-transform: uppercase;
 }
 
 .address {
