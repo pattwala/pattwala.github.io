@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".background").slick({autoplay:!0,autoplaySpeed:5e3,arrows:!1,draggable:!1,fade:!0})});

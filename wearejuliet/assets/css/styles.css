@@ -23,6 +23,7 @@ a {
 }
 
 .main {
+  height: 100vh;
   text-align: center;
   background-color: rgba(26, 25, 23, 0.3); /* #1a1917 */
   display: flex;
@@ -30,7 +31,7 @@ a {
   justify-content: center;
   position: relative;
   z-index: 2;
-  font-family: 'Asap Con';
+  overflow: hidden;
 }
 .container {
   min-height: 100vh;
@@ -95,9 +96,10 @@ a {
 
 @media only screen and (max-width: 600px) {
   .container {
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .title {
+    margin-top: -3rem;
     margin-bottom: 50px;
   }
   .logo-title {
@@ -110,7 +112,7 @@ a {
    .insta {
     position: absolute;
     width: 25px;
-    bottom: 65px;
+    bottom: 90px;
     left: 25px;
   }
 }
