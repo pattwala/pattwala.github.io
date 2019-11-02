@@ -9,6 +9,19 @@ body {
   background-color: #1a1917;
 }
 
+p {
+  font-family: 'Asap Con';
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #f4eee5;
+  margin: 0;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #f4eee5;
+}
+
 .main {
   text-align: center;
   background-color: rgba(26, 25, 23, 0.3); /* #1a1917 */
@@ -18,6 +31,16 @@ body {
   position: relative;
   z-index: 2;
   font-family: 'Asap Con';
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 80%;
+  box-sizing: border-box;
 }
 .background {
   position: absolute!important;
@@ -41,48 +64,19 @@ body {
 .bg4 {background-image: url('../images/bg4.jpg');}
 .bg5 {background-image: url('../images/bg5.jpg');}
 
-
-
-.logo-title {
-  width: 300px;
-  /* height: 40vmin; */
-  pointer-events: none;
-}
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  width: 80%;
-  box-sizing: border-box;
-}
-
 .title {
   margin-bottom: 75px;
 }
-
-.sub-title {
-  font-family: 'Asap Con';
-  font-size: 19px;
-  letter-spacing: 1px;
-  color: #f4eee5;
+.logo-title {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+.title p {
+  text-transform: uppercase;
 }
 
 .address {
   margin-bottom: 50px;
-}
-
-.address .sub-title,
-.contact .sub-title {
-  margin: 0;
-}
-
-.email {
-  text-decoration: none;
-  color: #f4eee5;
 }
 
 .rose {
@@ -99,51 +93,19 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .logo-title {
-    width: 200px;
-    /* height: 40vmin; */
-    pointer-events: none;
+  p {
+    font-size: 16px;
   }
-  
-  .App-header {
-    width: 80%;
-    box-sizing: border-box;
-  }
-  
   .title {
-    margin-bottom: 25px;
-  }
-  
-  .sub-title {
-    font-family: 'Asap Con';
-    font-size: 14px;
-  }
-
-  .contact .samples.sub-title{
-    margin-bottom: 20px;
-  }
-
-  .email {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sep {
-    display: none;
-  }
-  
-  .address {
     margin-bottom: 50px;
   }
-  
-  .address .sub-title,
-  .contact .sub-title {
-    margin: 0;
+  .logo-title {
+    width: 200px;
+    pointer-events: none;
   }
-  
-  .email {
-    text-decoration: none;
-    color: white;
+
+  .address {
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 600px) and (orientation: portrait) {
